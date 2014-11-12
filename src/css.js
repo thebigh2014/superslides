@@ -53,7 +53,6 @@ var css = {
 
     $images.removeAttr('width').removeAttr('height')
       .css({
-        "-webkit-backface-visibility": 'hidden',
         "-ms-interpolation-mode": 'bicubic',
         "position": 'absolute',
         "left": '0',

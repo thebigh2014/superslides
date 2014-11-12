@@ -1,4 +1,4 @@
-/*! Superslides - v0.6.1 - 2014-09-22
+/*! Superslides - v0.6.1 - 2014-11-12
 * https://github.com/nicinabox/superslides
 * Copyright (c) 2014 Nic Aitch; Licensed MIT */
 (function(window, $) {
@@ -154,7 +154,6 @@ var css = {
 
     $images.removeAttr('width').removeAttr('height')
       .css({
-        "-webkit-backface-visibility": 'hidden',
         "-ms-interpolation-mode": 'bicubic',
         "position": 'absolute',
         "left": '0',
