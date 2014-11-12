@@ -33,7 +33,7 @@ var image = {
     var container_aspect_ratio = that.height / that.width,
         $img = $(image);
 
-    if (container_aspect_ratio > image_aspect_ratio) {
+    if (container_aspect_ratio < image_aspect_ratio) {
       $img.css({
         height: that.height,
         width: that.height / image_aspect_ratio
